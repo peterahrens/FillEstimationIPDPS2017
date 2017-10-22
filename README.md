@@ -4,8 +4,8 @@ Tensor Fill Estimation: a comparison
 Organization
 --------
 
-oski-1.0.1h is the entire sparse kernel library. The tensor fill estimation
-algorithm is from oski-1.0.1h/src/heur/estfill.c.
+oski-1.0.1h is the entire sparse kernel library. The oski.c tensor fill
+estimation algorithm is from oski-1.0.1h/src/heur/estfill.c.
 
 taco-oopsla2017 is the Tensor Algebra Compiler. It can be compiled by running
 taco.sh from the base of the repository.
