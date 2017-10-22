@@ -1,0 +1,11 @@
+prefix=/Users/Peter/Projects/FillEstimation/gsl
+exec_prefix=/Users/Peter/Projects/FillEstimation/gsl
+libdir=/Users/Peter/Projects/FillEstimation/gsl/lib
+includedir=/Users/Peter/Projects/FillEstimation/gsl/include
+GSL_CBLAS_LIB=-lgslcblas
+
+Name: GSL
+Description: GNU Scientific Library
+Version: 2.4
+Libs: -L/Users/Peter/Projects/FillEstimation/gsl/lib -lgsl ${GSL_CBLAS_LIB}  -lm 
+Cflags: -I/Users/Peter/Projects/FillEstimation/gsl/include
